@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+.container-fluid{
+    position: absolute;
+    /* width: 1292px;  */ width: 90%;
+
+    height: 622px;
+    left: calc(50% - 90%/2 - 15px);
+    top: 92px;
+     background: linear-gradient(90deg, #96E9FB 0%, #ABECD6 100%); 
+
+    border-radius: 20px;
+}
+.displayrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 206px;
+    position: absolute;
+    /* width: 1292px;  width: 90%; */
+    height: 619px;
+    left: 0px;
+    top: 0px;
+}
+.display-col-md-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    /* width: 548px; */ width: 38%;
+    height: 316px;
+}
+.display-col-md-6 h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #2A7CC7;
+}
+.display-col-md-6 h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.display-col-md-6 h4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.cta{
+    display: flex;
+    flex-direction: column;
+  
+    align-items: flex-start;
+
+    gap: 10px;
+    padding: 0px;
+    /* width: 221px; */ width: 16%;
+    height: 62px;
+
+}
+.button{
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+    padding: 15px 40px;
+     width: 221px; 
+    height: 62px;
+    background: #23A6F0;
+    border-radius: 5px;
+}
+.button h3{
+  
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFf;
+ width: 141px; 
+    height: 32px;
+
+  padding-top: -50px;
+    flex: none;
+    order: 0
+    ;flex-grow: 0;
+}
+
+.image-col-md-6{
+    /* width: 697px; */ width: 48%;
+    height: 619px;
+}

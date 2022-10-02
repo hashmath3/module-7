@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './components/Layouts/Header';
+import Footer from './components/Layouts/Footer';
+import Displayimage from './components/Home/Displayimage';
+import ProductsTitle from './components/Home/ProductsTitle';
+import Products from './components/Home/Products';
+import { useState, createContext, useContext } from "react";
+import {ProductContext} from "./components/context/Context"
+
+
 
 function App() {
+  const [selectedMode, setSelectedMode] = useState(0);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <ProductContext.Provider value={{selectedMode, setSelectedMode}}>
+  
+    <div className='maincontainer'>
+     <Header />  
+     <div className='second'> <Displayimage/> 
+    <ProductsTitle/></div>
+   
+    <div className='mainproducts'>  
+      <Products /> </div>
+   
+    <Footer/>  
+    
     </div>
+    
+  
+    </ProductContext.Provider>
   );
 }
 
