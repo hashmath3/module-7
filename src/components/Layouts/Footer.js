@@ -78,7 +78,7 @@ const Footer = () => {
       <div className='container3'>
         <div className='row3'>
           <div className='col-md-3'>
-            <div className='navbar-brand'>
+            <div className='navbar-brand1'>
               <h3>AccioJob</h3>
             </div>
           </div>

@@ -60,6 +60,7 @@ width: 330px;
 height: 32px;
 left: 85px;
 /* top: 1139px; */
+top: 10px;
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -93,6 +94,7 @@ gap: 30px;
   background: #23A6F0;
   border-radius: 10px;
   border-color: #FFFFFF;
+  cursor: pointer;
 
 }
 .product-btntext{
@@ -116,7 +118,7 @@ color: #FFFFFF;
 
 .price{
   margin-top: 4px;
-  margin-right: 10px;
+  margin-right: 100px;
  
 }
 
@@ -124,8 +126,9 @@ color: #FFFFFF;
  
 width: 60px;
 height: 32px;
-left: 202px;
+left: 162px;
 top: 1186px;
+margin-left: -30px;
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -164,6 +167,7 @@ color: #000000;
 }
 .stars{
 display: flex;
+margin-bottom: -25px;
 
 
 

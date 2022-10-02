@@ -191,6 +191,7 @@ h5{
     border-radius: 0px 5px 5px 0px;
     width: 117px;
     height: 48px;
+    cursor: pointer;
 
 } 
 .input p{
@@ -262,13 +263,13 @@ flex-grow: 0;
     width: 236px;
     height: 58px;
 
- 
+ margin-left: -40px;
  
     flex: none;
     order: 0;
     flex-grow: 0;
 }
-.navbar-brand{
+.navbar-brand1{
     width: 187px;
 height: 58px;
 
@@ -279,11 +280,11 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
-.navbar-brand h3{
+.navbar-brand1 h3{
     position: absolute;
 width: 110px;
 height: 32px;
-left: 0px;
+left: 200px;
 top: 13px;
 
 /* h3 */
@@ -327,6 +328,8 @@ left: 150px;
  gap: 20px;
  width: 112px;
 height: 24px;
+cursor: pointer;
+
 }
 .facebook{
     flex-direction: column;
